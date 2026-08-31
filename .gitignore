@@ -1,0 +1,51 @@
+# Unreal Engine generated folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Generated plugin folders
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Visual Studio
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.user
+
+# JetBrains Rider
+.idea/
+
+# VS Code local settings
+.vscode/
+
+# Compiled files
+*.obj
+*.o
+*.lo
+*.dll
+*.so
+*.dylib
+*.exe
+*.lib
+*.a
+*.pdb
+
+# Generated platform project files
+*.xcodeproj
+*.xcworkspace
+
+# Packaged/build output
+Build/*
+!Build/**/
+!Build/**/*.ico
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
