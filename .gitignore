@@ -8,6 +8,9 @@ Saved/
 Plugins/**/Binaries/
 Plugins/**/Intermediate/
 
+# Temporary animation-generation plugin
+Plugins/Marketplace/MetaHumanBodyTracker/
+
 # Visual Studio
 .vs/
 *.sln
