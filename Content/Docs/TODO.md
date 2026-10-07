@@ -14,12 +14,14 @@
 * *in ai npcs and player characters, add the functionality that if somebody comes in their trigger area, they will rotate their faces and look at them slowly*
 * *can create animation without mocap using free plugin (https://www.youtube.com/watch?v=mkzj4lvXgBM)*
 * *if possible, make the system that after the fight, the player can pickup the body parts (torn off from them during fight) and put them back on their place with some animation like (https://www.youtube.com/watch?v=-QZsOFUHLq8), this can act as healing*
-
-
+* with this flare gun "https://www.fab.com/listings/26589af1-f7ea-497f-8142-02ae2924d4c1" player can light up dark places. the final output lightning should look like the ending scene of Jurassic world rebirth
 
 
 
 * *action controls: Controller*
+* *input combinations for attack and also input for blocking an attack*
+* *2 kinds of cameras, normal \& target lock*
+* *all of the animations required (including martial art attacks, weapon, etc)*
 
 
 
