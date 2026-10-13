@@ -15,14 +15,6 @@
 UCLASS()
 class ONE_OF_NONE_API AOONGameMode : public AGameMode {
 	GENERATED_BODY()
-	
-	// public:
-	// 	// Sets default values
-	// 	AOONGameMode();
-
-	protected:
-		// Called when the game starts or when spawned
-		virtual void BeginPlay() override;
 
 	public:
 		// Called every frame
