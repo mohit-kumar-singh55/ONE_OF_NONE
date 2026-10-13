@@ -7,7 +7,8 @@
 #include "OONPlayerController.generated.h"
 
 /**
- * Client side Player Controller the maps the enhanced input context
+ * Exists on the server and the owning client.
+ * Handles local input/UI and player-specific communication.
  */
 UCLASS()
 class ONE_OF_NONE_API AOONPlayerController : public APlayerController {

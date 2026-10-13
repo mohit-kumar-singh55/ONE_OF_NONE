@@ -7,7 +7,7 @@
 #include "OONGameState.generated.h"
 
 /**
- * Client side (replicated)
+ * Replicated match-wide state visible to server and clients.
  */
 UCLASS()
 class ONE_OF_NONE_API AOONGameState : public AGameState

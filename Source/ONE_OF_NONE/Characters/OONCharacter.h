@@ -7,7 +7,8 @@
 #include "OONCharacter.generated.h"
 
 /**
- * Client side character (replicated)
+ * Replicated player avatar.
+ * Server owns authoritative combat/body state.
  */
 UCLASS()
 class ONE_OF_NONE_API AOONCharacter : public ACharacter {

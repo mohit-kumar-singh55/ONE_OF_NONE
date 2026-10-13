@@ -7,7 +7,7 @@
 #include "OONPlayerState.generated.h"
 
 /**
- * 
+ * Replicated per-player match data visible to everyone.
  */
 UCLASS()
 class ONE_OF_NONE_API AOONPlayerState : public APlayerState

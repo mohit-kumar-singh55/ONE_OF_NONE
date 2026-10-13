@@ -2,7 +2,3 @@
 
 
 #include "Framework/OONPlayerController.h"
-
-void AOONPlayerController::BeginPlay() {
-	Super::BeginPlay();
-}
