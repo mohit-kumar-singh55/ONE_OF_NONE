@@ -26,7 +26,7 @@
 
       * to use it just migrate the sample to our project
 
-        * or understan it:
+        * or understand it:
 
           * https://www.youtube.com/watch?v=3\_gsPYqBB84	
 
@@ -36,6 +36,13 @@
 * *input combinations for attack and also input for blocking an attack*
 * *2 kinds of cameras, normal \& target lock*
 * *all of the animations required (including martial art attacks, weapon, etc)*
+
+
+
+### *TODO:*
+
+* add the handle defeat logic
+* make one let hopping animations and assign them in the Walk State in ABP\_Tommy\_Combat
 
 
 
