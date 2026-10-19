@@ -36,6 +36,8 @@
 * *input combinations for attack and also input for blocking an attack*
 * *2 kinds of cameras, normal \& target lock*
 * *all of the animations required (including martial art attacks, weapon, etc)*
+* *when created npc, add the icharacter interface to it, otherwise it will not come up in the contextual interaction search*
+* combo input (player intended attack not performed by the dynamic attack selector)
 
 
 
@@ -43,6 +45,8 @@
 
 * add the handle defeat logic
 * make one let hopping animations and assign them in the Walk State in ABP\_Tommy\_Combat
+* fix the trace start, end, radius for each attack
+* in the FindBestContextualTarget function, remove the filter that the target should be Idle, its not necessary, otherwise nobody will be able to attack or contextual counter
 
 
 
