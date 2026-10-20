@@ -38,6 +38,7 @@
 * *all of the animations required (including martial art attacks, weapon, etc)*
 * *when created npc, add the icharacter interface to it, otherwise it will not come up in the contextual interaction search*
 * combo input (player intended attack not performed by the dynamic attack selector)
+* during the ANS\_AttactWindow, instead of sending bone name in the Trace Socket Name, send actual socket names after creating respective sockets in the skeletal mesh
 
 
 
