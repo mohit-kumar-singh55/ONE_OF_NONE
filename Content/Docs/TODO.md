@@ -15,6 +15,20 @@
 * *can create animation without mocap using free plugin (https://www.youtube.com/watch?v=mkzj4lvXgBM)*
 * *if possible, make the system that after the fight, the player can pickup the body parts (torn off from them during fight) and put them back on their place with some animation like (https://www.youtube.com/watch?v=-QZsOFUHLq8), this can act as healing*
 * with this flare gun "https://www.fab.com/listings/26589af1-f7ea-497f-8142-02ae2924d4c1" player can light up dark places. the final output lightning should look like the ending scene of Jurassic world rebirth
+* Add motion matching (also for the correct hit reaction \& transitioning smoothly from ragdoll to animation)
+
+  * https://www.youtube.com/watch?v=UlNqYWuXcTw\&list=PLzdmunzFk\_kYAicjgFfYDRdr755C6eRsP\&index=1
+  * https://www.youtube.com/watch?v=zfEZo1oz\_xI
+  * https://www.youtube.com/watch?v=-r4nafTJI5c\&list=PLSCf9vYpqk3O3H-vOqPDVJDUZM4k0zSFz\&index=1
+  * add ***Multicharacter Motion Matching***
+
+    * https://youtu.be/UP3zWCMPn3E?si=EhoQ8VfCodyTEF\_p\&t=217
+
+      * to use it just migrate the sample to our project
+
+        * or understand it:
+
+          * https://www.youtube.com/watch?v=3\_gsPYqBB84	
 
 
 
@@ -22,6 +36,18 @@
 * *input combinations for attack and also input for blocking an attack*
 * *2 kinds of cameras, normal \& target lock*
 * *all of the animations required (including martial art attacks, weapon, etc)*
+* *when created npc, add the icharacter interface to it, otherwise it will not come up in the contextual interaction search*
+* combo input (player intended attack not performed by the dynamic attack selector)
+* during the ANS\_AttactWindow, instead of sending bone name in the Trace Socket Name, send actual socket names after creating respective sockets in the skeletal mesh
+
+
+
+### *TODO:*
+
+* add the handle defeat logic
+* make one let hopping animations and assign them in the Walk State in ABP\_Tommy\_Combat
+* fix the trace start, end, radius for each attack
+* in the FindBestContextualTarget function, remove the filter that the target should be Idle, its not necessary, otherwise nobody will be able to attack or contextual counter
 
 
 
