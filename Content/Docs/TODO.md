@@ -45,16 +45,17 @@
 
 * add the handle defeat logic
 * make one let hopping animations and assign them in the Walk State in ABP\_Tommy\_Combat
-* fix the trace start, end, radius for each attack
+* ~~fix the trace start, end, radius for each attack~~
 * in the FindBestContextualTarget function, remove the filter that the target should be Idle, its not necessary, otherwise nobody will be able to attack or contextual counter
-* during the ANS\_AttactWindow, instead of sending bone name in the Trace Socket Name, send actual socket names after creating respective sockets in the skeletal mesh
-* currently camera shake is implemented the wrong way, its shaking the attack as well. fix it.
+* ~~during the ANS\_AttactWindow, instead of sending bone name in the Trace Socket Name, send actual socket names after creating respective sockets in the skeletal mesh~~
+* currently camera shake is implemented the wrong way, its shaking the attacker as well. fix it.
 * current spectating implementation is a work around. implement it later using Spectator pawn.
-* stop movement and rotation while attacking
+* ~~stop movement and rotation while attacking~~
 * change actors hit this window to body parts hit this window, allowing to hit same character multiple time in the same attack window it the hitting body parts are different
 * add dodging, etc (https://www.youtube.com/watch?v=VfYw1BFONx0\&list=LL\&index=11\&pp=iAQBsAgC)
 * **add hands and feet IK in most of the attacks** (when the IK target is in range), so attacks just don't feel hitting the air
 * currenlty in tick of bp\_tommy: Manually Rotating Camera with the root motion during Contextual Attack. Note: Later add one more check for "Contextual Cinematic Camera is not active" once we have cinematics for each contextual attack otherwise cinematics camera might not work properly
+* after teh character dies, setting its capsule collider to no collision but its working only server, instead use a repnotify on death and disable the collisions there.
 
 
 
