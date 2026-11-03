@@ -59,6 +59,24 @@
 
 
 
+shorten attacker's anim length
+
+add more attacks
+
+add contextual cinematic camera to the attacks
+
+physical animation
+
+add waiting lobby before proceeding to the main stage
+
+muzzle spark effect
+
+blood effects (blood effect like in this video: https://youtu.be/8RQt23aY45M?si=SRDR2umcqB3LTdnI\&t=91)
+
+paint some blood textures on the body parts
+
+
+
 #### Completion Order
 
 * *Custom multiplayer framework classes*
