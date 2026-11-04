@@ -59,7 +59,7 @@
 
 
 
-shorten attacker's anim length
+~~shorten attacker's anim length~~
 
 add more attacks
 
