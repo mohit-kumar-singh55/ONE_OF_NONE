@@ -59,7 +59,7 @@
 
 
 
-add a anim notif on the animations at the end, so from that point we can cache the input for the next attack
+~~add a anim notif on the animations at the end, so from that point we can cache the input for the next attack~~
 
 ~~add leave session ui, so match can be restarted~~
 
