@@ -48,7 +48,7 @@
 * ~~fix the trace start, end, radius for each attack~~
 * in the FindBestContextualTarget function, remove the filter that the target should be Idle, its not necessary, otherwise nobody will be able to attack or contextual counter
 * ~~during the ANS\_AttactWindow, instead of sending bone name in the Trace Socket Name, send actual socket names after creating respective sockets in the skeletal mesh~~
-* currently camera shake is implemented the wrong way, its shaking the attacker as well. fix it.
+* ~~currently camera shake is implemented the wrong way, its shaking the attacker as well. fix it.~~
 * current spectating implementation is a work around. implement it later using Spectator pawn.
 * ~~stop movement and rotation while attacking~~
 * change actors hit this window to body parts hit this window, allowing to hit same character multiple time in the same attack window it the hitting body parts are different
@@ -59,9 +59,11 @@
 
 
 
-add leave session ui, so match can be restarted
+add a anim notif on the animations at the end, so from that point we can cache the input for the next attack
 
-add waiting lobby before proceeding to the main stage
+~~add leave session ui, so match can be restarted~~
+
+~~add waiting lobby before proceeding to the main stage~~
 
 ~~shorten attacker's anim length~~
 
