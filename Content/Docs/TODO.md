@@ -59,6 +59,10 @@
 
 
 
+add leave session ui, so match can be restarted
+
+add waiting lobby before proceeding to the main stage
+
 ~~shorten attacker's anim length~~
 
 add more attacks
@@ -66,8 +70,6 @@ add more attacks
 add contextual cinematic camera to the attacks
 
 physical animation
-
-add waiting lobby before proceeding to the main stage
 
 muzzle spark effect
 
