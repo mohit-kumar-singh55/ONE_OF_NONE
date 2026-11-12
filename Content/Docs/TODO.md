@@ -67,6 +67,8 @@
 
 ~~shorten attacker's anim length~~
 
+add target lock
+
 add more attacks
 
 add contextual cinematic camera to the attacks
@@ -78,6 +80,10 @@ muzzle spark effect
 blood effects (blood effect like in this video: https://youtu.be/8RQt23aY45M?si=SRDR2umcqB3LTdnI\&t=91)
 
 paint some blood textures on the body parts
+
+kick out (call leave session for) all the client first before the server leaves the session (by clicking the leave session button)
+
+fix "not allowed to attack" bug 
 
 
 

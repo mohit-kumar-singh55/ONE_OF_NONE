@@ -49,10 +49,6 @@
 		{
 			"Name": "ContextualAnimation",
 			"Enabled": true
-		},
-		{
-			"Name": "AnimReplicatedRagdoll",
-			"Enabled": false
 		}
 	]
 }
