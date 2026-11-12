@@ -85,6 +85,8 @@ kick out (call leave session for) all the client first before the server leaves 
 
 fix "not allowed to attack" bug 
 
+convert title menu ui and settings ui into diegetic ui
+
 
 
 #### Completion Order
