@@ -71,7 +71,7 @@ add target lock
 
 add more attacks
 
-add contextual cinematic camera to the attacks
+add contextual cinematic camera to the attacks \& slowmotion as well if possible
 
 physical animation
 
@@ -86,6 +86,12 @@ kick out (call leave session for) all the client first before the server leaves 
 fix "not allowed to attack" bug 
 
 convert title menu ui and settings ui into diegetic ui
+
+add hand grenade as throwable weapon
+
+the hit ripple effect currenlty billboarding camera. make it to face the hit normal
+
+"Take Recorder" or "DemoNetDriver" : one is used to capture gameplay as animations and other is used as a replay system (like replaying the death sequence, etc) in ue
 
 
 
