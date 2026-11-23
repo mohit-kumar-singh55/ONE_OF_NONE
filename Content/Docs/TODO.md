@@ -95,6 +95,16 @@ the hit ripple effect currenlty billboarding camera. make it to face the hit nor
 
 
 
+target lock
+
+combat animation during target lock
+
+try keeping the player always in about 10% ragdoll state
+
+physical animation (or try manually interpolating ragdoll)
+
+
+
 #### Completion Order
 
 * *Custom multiplayer framework classes*
