@@ -67,7 +67,7 @@
 
 ~~shorten attacker's anim length~~
 
-add target lock
+~~add target lock~~
 
 add more attacks
 
@@ -95,7 +95,9 @@ the hit ripple effect currenlty billboarding camera. make it to face the hit nor
 
 
 
-target lock
+~~target lock~~
+
+try adding target lock in npc
 
 combat animation during target lock
 
