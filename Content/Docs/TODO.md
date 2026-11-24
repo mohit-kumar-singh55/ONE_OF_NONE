@@ -91,15 +91,21 @@ add hand grenade as throwable weapon
 
 the hit ripple effect currenlty billboarding camera. make it to face the hit normal
 
-"Take Recorder" or "DemoNetDriver" : one is used to capture gameplay as animations and other is used as a replay system (like replaying the death sequence, etc) in ue
+"Take Recorder" or "DemoNetDriver" : one is used to capture gameplay as animations and other is used as a replay system (like replaying the death sequence, etc) in ue (or use this for the creation of PV/Trailer)
 
 
 
 ~~target lock~~
 
+~~target lock not working for client~~
+
+make the target lock talk with the contextual target lock
+
+break target lock when aiming ~~or when tried to rotate camera voilently~~
+
 try adding target lock in npc
 
-combat animation during target lock
+combat idle animation during target lock
 
 try keeping the player always in about 10% ragdoll state
 
