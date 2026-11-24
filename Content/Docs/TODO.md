@@ -101,7 +101,7 @@ the hit ripple effect currenlty billboarding camera. make it to face the hit nor
 
 make the target lock talk with the contextual target lock
 
-break target lock when aiming ~~or when tried to rotate camera voilently~~
+break target lock when aiming ~~or when tried to rotate camera violently~~
 
 try adding target lock in npc
 
