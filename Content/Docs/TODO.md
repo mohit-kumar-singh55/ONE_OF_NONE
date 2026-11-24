@@ -103,8 +103,6 @@ make the target lock talk with the contextual target lock
 
 ~~break target lock when aiming or when tried to rotate camera violently~~
 
-try adding target lock in npc
-
 combat idle animation during target lock
 
 try keeping the player always in about 10% ragdoll state
