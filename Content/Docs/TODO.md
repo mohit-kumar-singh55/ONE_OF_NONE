@@ -75,7 +75,7 @@ add contextual cinematic camera to the attacks \& slowmotion as well if possible
 
 physical animation
 
-muzzle spark effect
+~~muzzle spark effect~~
 
 blood effects (blood effect like in this video: https://youtu.be/8RQt23aY45M?si=SRDR2umcqB3LTdnI\&t=91)
 
@@ -83,7 +83,7 @@ paint some blood textures on the body parts
 
 kick out (call leave session for) all the client first before the server leaves the session (by clicking the leave session button)
 
-fix "not allowed to attack" bug 
+~~fix "not allowed to attack" bug~~ : Fixed it by not allowing contextual attacks with cached input
 
 convert title menu ui and settings ui into diegetic ui
 
@@ -104,8 +104,6 @@ make the target lock talk with the contextual target lock
 ~~break target lock when aiming or when tried to rotate camera violently~~
 
 combat idle animation during target lock
-
-try keeping the player always in about 10% ragdoll state
 
 physical animation (or try manually interpolating ragdoll)
 
