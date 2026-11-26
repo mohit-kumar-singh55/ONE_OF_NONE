@@ -109,58 +109,17 @@ physical animation (or try manually interpolating ragdoll)
 
 getting up animation for the victim after the contextual attack
 
+don't play contextual cinematics for npc (use IsNPC function from ICharacter)
+
+different level sequence for different contextual attack
+
+add sfx, camera shake, etc in each level sequence
+
+shooting is allowed only when aiming
+
+create a proper audio system including replication (i don't think multicast is a good way), audio mixer, background loading, etc
 
 
-#### Completion Order
-
-* *Custom multiplayer framework classes*
-* *One server-authoritative attack*
-* *Replicated damage and defeat*
-* *Test at simulated 100–150 ms latency*
-* *Basic targeting and combat movement*
-* *NPC controlled exclusively by the server*
-* *Player-versus-NPC combat*
-* *Bone/body-part hit detection*
-* *Limb functionality loss*
-* *Visual dismemberment*
-* *Scoring and match-ending rules*
-* *More attacks, combos, weapons and gore*
-
-
-
-### Animation Retargeting from Metahuman to own Rig
-
-&#x20;                  VIDEO
-
-&#x20;                    ↓
-
-&#x20;           MetaHuman Animator
-
-&#x20;                    ↓
-
-&#x20;         MetaHuman body motion
-
-&#x20;                    ↓
-
-&#x20;             IK Retargeter
-
-&#x20;                    ↓
-
-&#x20;            YOUR SKELETON
-
-&#x20;                    ↓
-
-&#x20;             YOUR CHARACTER
-
-&#x20;                    ↓
-
-&#x20;       ┌────────────┴────────────┐
-
-&#x20;       ↓                         ↓
-
-&#x20;Captured animations       Gameplay IK
-
-&#x20;(30+ animations)       (hands / feet / etc.)
 
 
 
