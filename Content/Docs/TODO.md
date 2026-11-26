@@ -107,6 +107,8 @@ combat idle animation during target lock
 
 physical animation (or try manually interpolating ragdoll)
 
+getting up animation for the victim after the contextual attack
+
 
 
 #### Completion Order
