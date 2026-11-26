@@ -55,7 +55,7 @@
 * add dodging, etc (https://www.youtube.com/watch?v=VfYw1BFONx0\&list=LL\&index=11\&pp=iAQBsAgC)
 * **add hands and feet IK in most of the attacks** (when the IK target is in range), so attacks just don't feel hitting the air
 * currenlty in tick of bp\_tommy: Manually Rotating Camera with the root motion during Contextual Attack. Note: Later add one more check for "Contextual Cinematic Camera is not active" once we have cinematics for each contextual attack otherwise cinematics camera might not work properly
-* after teh character dies, setting its capsule collider to no collision but its working only server, instead use a repnotify on death and disable the collisions there.
+* ~~after the character dies, setting its capsule collider to no collision but its working onlyfor server, instead use a repnotify on death and disable the collisions there.~~
 
 
 
@@ -71,7 +71,7 @@
 
 add more attacks
 
-add contextual cinematic camera to the attacks \& slowmotion as well if possible
+~~add contextual cinematic camera to the attacks \& slowmotion as well if possible~~
 
 physical animation
 
@@ -89,7 +89,7 @@ convert title menu ui and settings ui into diegetic ui
 
 add hand grenade as throwable weapon
 
-the hit ripple effect currenlty billboarding camera. make it to face the hit normal
+~~the hit ripple effect currenlty billboarding camera. make it to face the hit normal~~
 
 "Take Recorder" or "DemoNetDriver" : one is used to capture gameplay as animations and other is used as a replay system (like replaying the death sequence, etc) in ue (or use this for the creation of PV/Trailer)
 
@@ -117,11 +117,17 @@ add sfx, camera shake, etc in each level sequence
 
 fix the チンコ視点 bug coming from the contextual camera sequence
 
-shooting is allowed only when aiming
+~~shooting is allowed only when aiming~~
 
 create a proper audio system including replication (i don't think multicast is a good way), audio mixer, background loading, etc)
 
 add the 回避、perry 
+
+fix the bug that even when one leg is taken off with gun, the player dies (which should not happen)
+
+(in order to take off body parts from the dead body on client side as well, check for collision with dead body on client side and then sever it off)
+
+add effects and also change the current pistol muzzle effect
 
 
 
