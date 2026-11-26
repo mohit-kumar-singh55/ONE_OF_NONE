@@ -115,9 +115,13 @@ different level sequence for different contextual attack
 
 add sfx, camera shake, etc in each level sequence
 
+fix the チンコ視点 bug coming from the contextual camera sequence
+
 shooting is allowed only when aiming
 
-create a proper audio system including replication (i don't think multicast is a good way), audio mixer, background loading, etc
+create a proper audio system including replication (i don't think multicast is a good way), audio mixer, background loading, etc)
+
+add the 回避、perry 
 
 
 
